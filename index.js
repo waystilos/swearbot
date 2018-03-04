@@ -9,7 +9,7 @@ const bot = controller.spawn({
     token: bot_token
 });
 
-const channelId = "C9AL0E7L3";
+const channelId = process.env.CHANNEL_ID;
 
 bot.startRTM((err, bot, payload) => {
     if(err) {
