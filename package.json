@@ -7,7 +7,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@slack/client": "^3.16.0",
     "botkit": "^0.6.11",
     "dotenv": "^5.0.1",
     "express": "^4.16.2"
